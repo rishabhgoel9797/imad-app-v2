@@ -1,6 +1,7 @@
 console.log('Loaded!');
 var element=document.getElementById('main-text');
 element.innerHTML='r u';
+//jhuhu
 var img = document.getElementById('madi');
 var marginLeft = 0;
 function moveRight () {
