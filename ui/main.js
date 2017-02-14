@@ -1,6 +1,6 @@
 console.log('Loaded!');
 var element=document.getElementById('main-text');
-element.innerHTML='wow i am cool';
+element.innerHTML='who r u';
 var img=document.getElementById('rishu');
 var marginLeft=0;
 function moveRight()
