@@ -1,7 +1,7 @@
 console.log('Loaded!');
 var element=document.getElementById('main-text');
 element.innerHTML='wow i am cool';
-var element=document.getElementById('rishu');
+var img=document.getElementById('rishu');
 var marginLeft=0;
 function moveRight()
 {
@@ -10,7 +10,7 @@ function moveRight()
     
 }
 
-element.onClick=function()
+img.onClick=function()
 {
     var interval=setInterval(moveRight,50);
 };
