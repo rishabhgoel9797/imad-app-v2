@@ -20,8 +20,8 @@ var articles={
     
 'article-two':{
         
-    title:two|rishabh,
-    heading:article-two,
+    title:'two|rishabh',
+    heading:'article-two',
     content:`
     <p>
                 hi i am rishabh and this is article one.hi i am rishabh and this is article one.
@@ -32,8 +32,8 @@ var articles={
 },
     'article-three':{
         
-           title:three|rishabh,
-    heading:article-three,
+           title:'three|rishabh',
+    heading:'article-three',
     content:`
     <p>
                 hi i am rishabh and this is article one.hi i am rishabh and this is article one.
