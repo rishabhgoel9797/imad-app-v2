@@ -1,6 +1,6 @@
 //counter end point
 var button=document.getElementById('counter');
-var counetr =0;
+var counter =0;
 button.onclick = function()
 {
     counter = counter +1;
