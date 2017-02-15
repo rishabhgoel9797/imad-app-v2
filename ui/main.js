@@ -1,6 +1,5 @@
 console.log('Loaded!');
 var element=document.getElementById('main-text');
-element.innerHTML='r u';
 var element = document.getElementById('madi');
 var marginLeft = 0;
 function moveRight () {
