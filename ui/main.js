@@ -1,13 +1,9 @@
-console.log('Loaded!');
-var element=document.getElementById('main-text');
-var element = document.getElementById('madi');
-var marginLeft = 0;
-function moveRight () {
-    marginLeft=marginLeft + 10;
-    element.style.marginLeft=marginLeft + 'px';
-    
-}
-
-element.onclick=function(){
-    var interval=setInterval(moveRight , 5);
+//counter end point
+var button=document.getElementById('counter');
+var counetr =0;
+button.onclick = function()
+{
+    counter = counter +1;
+    var span=document.getElementById('count');
+    span.onclick=counter.toString();
 };
