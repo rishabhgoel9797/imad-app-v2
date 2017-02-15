@@ -17,6 +17,6 @@ button.onclick = function()
     };
     
     request.open('GET', 'http://rishabhgoel9797.imad.hasura-app.io/',true);
-    request.send(NULL);
+    request.send(null);
     
 };
